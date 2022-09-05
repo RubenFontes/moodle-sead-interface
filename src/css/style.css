@@ -7,7 +7,7 @@
     font-size: 2.2vh;
 }
 body{
-    background-color: #EFF3F5;
+    background-color: #F0F2F5;
     overflow-x: hidden;
     text-align: center;
     color: #0259a1;
@@ -21,8 +21,8 @@ header{
 }
 .navbar .hr-1{
     width: 100vw;
-    height: 5px;
-    background-color: #1659BF;
+    height: 4px;
+    background-color: #2151CC;
 }
 .navbar #logo{
     padding: 0.6rem;
@@ -82,14 +82,13 @@ h2{
     border: none;
 }
 .btn-1{
-    background-color: aliceblue;
-    color: #0F4098;
+    background-color: #2F6FDD;
 }
 .btn-2{
     background-color: #E83B2D;
 }
 .btn-3{
-    background-color: #2F6FDD;
+    background-color: #3A9135;
 }
 a{
     text-decoration: none;
