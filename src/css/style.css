@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-size: 2.2vh;
+    font-size: 2vh;
 }
 body{
     background-color: #F0F2F5;
@@ -33,14 +33,12 @@ header{
     height: 30%;
     background-color: #D9E2EB;
 }
-.wrapper{
-    margin: 75px 37% 0 37%;
-}
 .content{
-    margin-top: 15vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 27vw;
 }
 .content .list-menu{
     display: flex;
@@ -50,11 +48,10 @@ header{
     height: auto;
     background-color: white;
     border-radius: 10px;
-    padding: .8rem;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 h2{
-    margin: 30px;
+    margin: 2rem;
     letter-spacing: .1rem;
     font-weight: 600;
 }
@@ -68,7 +65,7 @@ h2{
     color: white;
     border: none;
     padding: 1.2vh;
-    margin: 0px 5% 1.4% 5%;
+    margin: 0 2rem .2rem 2rem;
     transition: 0.5s;
     border-radius: 4px;
     opacity: 0.8;
@@ -77,18 +74,29 @@ h2{
 .btn:hover{
     cursor: pointer;
     filter: brightness(0.9);
+    transform: scale(0.99);
 }
 .btn:focus{
     border: none;
 }
 .btn-1{
-    background-color: #2F6FDD;
+    background-color: #E4672F;
 }
 .btn-2{
-    background-color: #E83B2D;
+    background-color: #CB921F;
 }
 .btn-3{
+    background-color: #093F70;
+}
+.btn-4{
+    background-color: #E83B2D;
+}
+.btn-5{
+    background-color: #1B85C7;
+}
+.btn-6{
     background-color: #3A9135;
+    margin-bottom: -0.2rem;
 }
 a{
     text-decoration: none;
@@ -96,9 +104,8 @@ a{
 }
 #voltar{
     font-size: 1.5vh;
-    padding: 30px;
+    padding: 2rem;
     font-weight: 400;
-    margin-top: -1%;
 }
 #voltar:hover{
     text-decoration: underline;
@@ -126,33 +133,45 @@ p{
     opacity: 0.8;
     font-weight: 300;
 }
-@media (max-width: 1200px)
+@media (max-width: 1280px)
 {
-    .wrapper{
-        margin: 15px 30% 0px 30%;
+    .content{
+        width: 35vw;
     }
+
+    img{
+        width: 64px;
+    }
+
 }
 @media (max-width: 1023px)
 {
-    .wrapper{
-        margin: 15px 20% 0px 20%;
+    .content{
+        width: 60vw;
+    }
+
+    img{
+        width: 68px;
     }
 }
 @media (max-width: 767px)
 {
-    .wrapper{
-        margin: 15px 10% 0px 10%;
+    .content{
+        width: 85vw;
     }
     img{
-        width: 48px;
+        width: 62px;
     }
+
+
 }
 @media (max-width: 480)
 {
-    .wrapper{
-        margin: 15px 5% 0px 5%;
+    .content{
+        width: 90vw;
     }
+
     img{
-        width: 48px;
+        width: 42px;
     }
 }
