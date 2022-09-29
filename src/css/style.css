@@ -64,7 +64,7 @@ h2{
     font-weight: 600;
     color: white;
     border: none;
-    padding: 1.2vh;
+    padding: 1vh;
     margin: 0 2rem .2rem 2rem;
     transition: 0.5s;
     border-radius: 4px;
@@ -79,29 +79,41 @@ h2{
 .btn:focus{
     border: none;
 }
-.btn-1{
-    background-color: #E4672F;
+
+.btn-pex{
+    background-color: #ef4444;
 }
-.btn-2{
-    background-color: #CB921F;
+
+.btn-ceap{
+    background-color: #f97316;
 }
-.btn-3{
-    background-color: #093F70;
+
+.btn-cecamp{
+    background-color: #f59e0b;
 }
-.btn-4{
-    background-color: #E83B2D;
+
+.btn-uab{
+    background-color: #22c55e;
 }
-.btn-5{
-    background-color: #1B85C7;
+
+.btn-progep{
+    background-color: #14b8a6;
 }
-.btn-6{
-    background-color: #3A9135;
-    margin-bottom: -0.2rem;
+
+.btn-classes{
+    background-color: #3b82f6;
 }
+
+.btn-cofen{
+    background-color: #64748b;
+}
+
 a{
     text-decoration: none;
     color: inherit;
+    margin-top: -0.2rem;
 }
+
 #voltar{
     font-size: 1.5vh;
     padding: 2rem;
